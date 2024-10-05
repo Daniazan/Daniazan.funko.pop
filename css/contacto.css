@@ -14,7 +14,7 @@
     ::-webkit-scrollbar-thumb:hover {
         background: #038876c2;   }
     body{
-        background-image: url(/imagenes/theme.png); 
+        background-image: url(../imagenes/theme.png); 
         background-repeat: no-repeat;
         background-size: cover;
         min-height: 100vh;
@@ -61,8 +61,8 @@
         height: 100%;
         background-repeat: no-repeat;
         background-size: 100%;
-        background-image: url(/imagenes/funko.png);
-        transition: 0.5s;}.logo:hover{background-image: url(/imagenes/funko2.png);transition-duration: 0.5s;} 
+        background-image: url(../imagenes/funko.png);
+        transition: 0.5s;}.logo:hover{background-image: url(../imagenes/funko2.png);transition-duration: 0.5s;} 
     .selected{
             height: 53px;
             width: 190px;
