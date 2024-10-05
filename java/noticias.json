@@ -1,0 +1,33 @@
+myCallBack([
+    {
+    "img":"../imagenes/batman.jpg",
+    "Nombre":"  Batman Blue Chrome",
+    "Evento":"  SDCC 2017",
+    "Unidades producidas":"  100 unidades"
+    
+},
+
+{
+"img": "../imagenes/thanos.jpg",
+"Nombre":"  Thanos Emerald Chrome",
+"Evento":"  SDCC 2019",
+"Unidades producidas":"  250 unidades"
+
+},
+
+{
+"img":"../imagenes/grooth.jpg",
+"Nombre":"  Grooth Gold Crome",
+"Evento":"  SDCC 2015",
+"Unidades producidas":"  400 unidades"
+
+},
+
+{
+"img":"../imagenes/supersaiyan.jpg",
+"Nombre":"  Super Saiyan Ocean Crome",
+"Evento":" SDCC 2010",
+"Unidades producidas":"  50 unidades"
+
+},
+])

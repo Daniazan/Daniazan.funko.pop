@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funko Official</title>
+    <link rel="stylesheet" href="/css/presupuesto.css">
+</head>
+<body>
+<!-- START OF TASKBAR -->    <div class="taskbar">
+    <a href="/html/index.html"><div class="selector">Inicio</div></a>
+    <a href="/html/productos.html"><div class="selector">Tienda</div></a>
+    <div class="logo"></div> 
+    <div class="selected">Cesta</div>
+    <a href="/html/contacto.html"><div class="selector">Contacto</div></a>
+       
+</div>
+<!-- END OF TASKBAR -->
+
+<form  class="form" id="formulario"  oninput="x.value=parseInt(choose.value)-parseInt(choose2.value)+parseInt(choose3.value)">
+
+    <div class="dat">
+        <legend>Datos</legend>
+        <div>
+            <p for="nombre">Nombre:
+            <input class="valida" type="text" name="Nombre" id="nombre" pattern="[A-Z a-z]{3-15}"></p>
+        </div>
+        <div>
+            <p for="apellidos">Apellidos:
+            <input class="valida" type="text" name="Apellidos" id="apellidos" pattern="[A-Z a-z]{2-40}"></p>
+        </div>
+        <div>
+            <p for="telefono">Telefono:
+            <input class="valida" type="tel" name="Telefono" id="telefono" pattern="[0-9]{9}"></p>
+        </div>
+        <div>
+            <p for="email">Email:
+            <input class="valida" type="email" name="Correo" id="email" pattern="[a-zA-Z0-9_-.]+@[a-zA-Z0-9_-.]+\.[a-z]{2-4}"></p>
+        </div>
+    </div>
+
+    
+    <div class="pre">
+        <legend>Presupuesto</legend>
+        <p for="choose">Producto:
+            <select id="choose">
+                <option value="15,99">Stitch as Cheshire Cat</option>
+                <option value="17,99">Groot as Black Panther</option>
+                <option value="15,99">Harry Potter Cloack</option>
+                <option value="19,99">Boba Fett</option>
+                <option value="15,99">Harry Potter with Birthday Cake</option>
+                <option value="15,99">Stitch as Gus</option>
+                <option value="17,99">Caveman Spongebob</option>
+                <option value="17,99">Groot as Doctor Strange</option>
+                <option value="15,99">Harry Potter with Hedwig</option>
+                <option value="15,99">Stitch as Pongo</option>
+                <option value="19,99">Mandalorian</option>
+                <option value="17,99">Glove World Spongebob</option>
+                <option value="17,99">Groot as Hulk</option>
+                <option value="15,99">Harry Potter with Prophency</option>
+                <option value="15,99">Stitch as Simba</option>
+                <option value="19,99">Moff Gideon with Armour</option>
+                <option value="17,99">Krusty Krab Pizza Spongebob</option>
+                <option value="17,99">Mocking Spongebob</option>
+                <option value="15,99">Harry Potter with Stone</option>
+                <option value="17,99">Groot as Iron Man</option>
+                <option value="15,99">Summer Stitch</option>
+                <option value="17,99">Ripped Pants Spongebob</option>
+                <option value="15,99">Quidditch Harry</option>
+                <option value="15,99">Stitch as Beast</option>
+                <option value="17,99">Groot as Loki</option>
+                <option value="19,99">The Mandalorian with Darksaber</option>
+                <option value="17,99">Spongebob with the Suds</option>
+                <option value="17,99">Groot as Wolverine</option>
+            </select></p>
+    
+        <p for="choose2">Entrega en:
+        <select id="choose2">
+            <option class="opt2" value="1,00">1-5 dias</option>
+            <option class="opt2" value="2">6-14 dias</option>
+            <option class="opt2" value="4">15-30 dias</option>
+        </select></p>
+        
+        <p for="choose3">Extras:
+        <div id="choose3">
+            <input type="radio" name="Tamaño" value="0,00" class="box">Tamaño Base
+            <input type="radio" name="Tamaño" value="3,00"   class="box">Tamaño M (+3$)
+            <input type="radio" name="Tamaño" value="6,00"  class="box">Tamaño L (+6$)
+            <input type="radio" name="Tamaño" value="9,00"  class="box">Tamaño XL (+9$)
+        </div></p>
+
+
+        <p>Presupuesto estimado:<output id="price" name="x" for="choose choose2 choose3"></output></p>
+    </div>
+
+
+    <div class="cond">
+        <legend>Condiciones y politica</legend>
+        <p>
+            <input type="checkbox" name="privacidad" id="priv" class="box">
+            Acepto las condiciones del servicio y la politica de privacidad
+        </p>
+        <br />
+        <input class="colorgris" type="reset"  id="reset"  value="Reset">
+        <input class="colorgris" type="submit"  id="enviar"  value="Enviar">
+    </div>
+             
+
+</form>
+
+
+<!-- START OF REDES BAR -->    <div class="redes">
+    <div class="follow">Siguenos en</div>  
+    <a href="https://www.youtube.com/channel/UCiBxZWamaDdlemljJ3aGPZQ">
+        <div class="imagen"><img src="/imagenes/yt2.png" alt="">
+            <img id="red" src="/imagenes/yt.png" alt="">
+        </div></a>
+
+    <a href="https://www.instagram.com/funko_europe/">
+        <div class="imagen"><img src="/imagenes/inst2.png" alt="">
+            <img id="red" src="/imagenes/inst.png" alt="">
+        </div></a>
+
+    <a href="https://x.com/FunkoEurope">
+        <div class="imagen"><img src="/imagenes/face2.png" alt="">
+            <img id="red" src="/imagenes/face.png" alt="">
+        </div></a>
+
+    <a href="https://www.facebook.com/funkoeurope">
+        <div class="imagen"><img src="/imagenes/x2.png" alt="">
+        <img id="red" src="/imagenes/x.png" alt="">
+    </div></a>
+
+</div>
+<!-- END OF REDES BAR -->
+    <script  src="/java/presupuesto.js"></script>
+    </body>
+</html>
